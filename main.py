@@ -9,18 +9,18 @@ piny = [
 ]
 
 otocka = [
-    [1,0,0,0],
-    [0,1,0,0],
-    [0,0,1,0],
-    [0,0,0,1]
+    [0,1,1,1],
+    [1,1,1,0],
+    [1,1,0,1],
+    [1,0,1,1]
     ]
 
 while True:
     for krucek in otocka:
         for i in range(len(piny)):
             piny[i].value(krucek[i])
-            time.sleep(0.1)
-            
+            time.sleep(0.01)
+
 
 
 

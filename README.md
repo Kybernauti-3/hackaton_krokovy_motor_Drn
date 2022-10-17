@@ -1,2 +1,6 @@
 # hackaton_krokovy_motor_Drn
-Tomáš Drnec
+
+## Tomáš Drnec
+
+Krokový motor
+> Tohle je komentář
